@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Operator Logical</h1>
+<p id="demo"></p>
+<script>
+// Operator Logical AND
+let x = 50;
+let y = 30;
+
+document.getElementById("demo").innerHTML = 
+(x < 80 && y > 20) + "<br>" + 
+(x < 80 && y < 20);
+
+// operator LOgical OR
+document.getElementById("demo").innerHTML = 
+(x == 50 || y == 50) + "<br>" + 
+(x == 60 || y == 0) + "<br>" + 
+(x == 0 || y == 30) + "<br>" + 
+(x == 60 || y == 30);
+
+//operator logical NOT 
+document.getElementById("demo").innerHTML = 
+!(x === y) + "<br>" + 
+!(x > y);
+
+</script>
+
+</body>
+</html>
